@@ -1,1 +1,1 @@
-function hello(l){console.log(l)}hello("hello world!!!");
+function addUser(a,d){$.instagramFeed({username:a,container:"#"+d,display_profile:!0,display_biography:!1,display_gallery:!0,styling:!0,items:3,items_per_row:4,margin:.5})}jQuery(window).on("load",function(){addUser("_tolendiev_","galym"),addUser("nursila_003","nurs"),addUser("zhasulanankenov","zhas"),addUser("iluxa011","ilukha"),addUser("sonya___770","indira")});
